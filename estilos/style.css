@@ -37,6 +37,9 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1; /*Como se fosse camadas de photoshop*/
 }
 
 nav#menu ul {
